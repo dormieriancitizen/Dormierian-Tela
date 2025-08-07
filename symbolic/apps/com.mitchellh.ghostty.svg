@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="com.mitchellh.ghostty.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="12.4375"
+     inkscape:cx="32.040201"
+     inkscape:cy="36.422111"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <path
+     d="m 50.080302,6 h -35.9998 c -4.41834,0 -8.0001,3.58176 -8.0001,8.0001 v 35.9998 c 0,4.4183 3.58176,8.0001 8.0001,8.0001 h 35.9998 c 4.4183,0 8.0001,-3.5818 8.0001,-8.0001 V 14.0001 C 58.080402,9.58176 54.498602,6 50.080302,6 Z"
+     fill="#4172E3"
+     id="path1"
+     style="fill:#292c3c;fill-opacity:1" />
+  <path
+     d="M54 6H18.5C43.7926 12.0924 52.8127 16.8153 58 28V10L54 6Z"
+     fill="#3A65CB"
+     id="path2"
+     style="fill:#232634;fill-opacity:1" />
+  <path
+     d="M6 54V41C18.8214 36.6065 30.8049 39.1682 53 58H10L6 54Z"
+     fill="#6287E0"
+     id="path3"
+     style="fill:#303446;fill-opacity:1" />
+  <rect
+     x="7"
+     y="7"
+     width="50"
+     height="50"
+     rx="5"
+     stroke="#DDDDDD"
+     stroke-width="3"
+     id="rect3"
+     style="stroke:#c6d0f5;stroke-opacity:1" />
+  <ellipse
+     cx="21.5"
+     cy="22.0588"
+     rx="9.5"
+     ry="10.0588"
+     fill="#D9D9D9"
+     id="ellipse3"
+     style="fill:#c6d0f5;fill-opacity:1" />
+  <rect
+     x="12"
+     y="18.7059"
+     width="19"
+     height="15.6471"
+     rx="4"
+     fill="#D9D9D9"
+     id="rect4"
+     style="fill:#c6d0f5;fill-opacity:1" />
+  <path
+     d="M15.3529 18.7059L18.7059 21.5L15.3529 24.2941"
+     stroke="#3A65CB"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path4"
+     style="stroke:#ca9ee6;stroke-opacity:1;stroke-width:3;stroke-dasharray:none" />
+  <path
+     d="M23.7353 21.5H27.6471"
+     stroke="#3A65CB"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path5"
+     style="stroke:#8caaee;stroke-opacity:1;stroke-width:3;stroke-dasharray:none" />
+</svg>
