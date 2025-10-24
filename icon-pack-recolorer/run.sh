@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
+. tela-install.sh
+
 go build
-rm -rf $HOME/.local/share/icons/Tela-frappe/
-cp -r $HOME/.local/share/icons/Tela-nord/ $HOME/.local/share/icons/Tela-frappe
+echo "Recoloring target"
 ./icon-pack-recolorer $HOME/.local/share/icons/Tela-frappe/
