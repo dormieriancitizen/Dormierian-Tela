@@ -21,7 +21,7 @@ cp -r /tmp/tela-out/Tela-nord/ $HOME/.local/share/icons/Tela-frappe
 rm -rf /tmp/tela-out/
 
 echo "Recoloring target"
-go build
+# go build
 ./icon-pack-recolorer $HOME/.local/share/icons/Tela-frappe/
 
 echo "Reloading theme"

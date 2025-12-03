@@ -24,6 +24,7 @@ type HaldCLUT struct {
 	Size  int
 	Level int
 	Data  [][]color.NRGBA
+	Cache map[string]string
 }
 
 func LoadCLUT(path string) (*HaldCLUT, error) {
@@ -49,6 +50,7 @@ func LoadCLUT(path string) (*HaldCLUT, error) {
 		Size:  h,
 		Level: 8,
 		Data:  make([][]color.NRGBA, h*h),
+		Cache: make(map[string]string),
 	}
 
 	for y := range clut.Size * clut.Size {
@@ -103,17 +105,19 @@ func (c *HaldCLUT) ClosestMatch(hex string) string {
 		return val
 	}
 
+	if cached, ok := c.Cache[hex]; ok {
+		return cached
+	}
+
 	nrgba, err := HexToNRGBA(hex)
 	if err != nil {
 		fmt.Println(err)
 		nrgba = color.NRGBA{255, 0, 255, 255}
 	}
 	outNRGBA := c.Apply(nrgba)
-
 	out := NRGBAtoHexRGB(outNRGBA)
-	if len(out) > 7 {
-		fmt.Println(out)
-	}
+
+	c.Cache[hex] = out
 
 	return out
 }
