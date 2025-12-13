@@ -24,7 +24,4 @@ echo "Recoloring target"
 # go build
 ./icon-pack-recolorer $HOME/.local/share/icons/Tela-frappe/
 
-echo "Reloading theme"
-
-/usr/lib/plasma-changeicons hicolor
-/usr/lib/plasma-changeicons Dormierian-Tela
+source ./reload.sh
